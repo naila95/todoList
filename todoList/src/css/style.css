@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a251dd;
+}
+
+.main {
+  padding: 5rem 0 0 5rem;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+.inp-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  width: 140%;
+  outline: none;
+}
+
+.inp-btn .btn {
+  padding: 10px 20px;
+  background-color: #8052ec;
+  color: white;
+  border: 0;
+}
+
+.list-item {
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-content h5 {
+  cursor: pointer;
+  margin: 0;
+}
+
+.list-icon {
+  background-color: #8052ec;
+  padding: 10px 15px;
+}
+
+.list-icon i {
+  color: white;
+  cursor: pointer;
+}
+
+.list-content h5.checked {
+  text-decoration: line-through;
+}
